@@ -40,8 +40,7 @@ class dict(dict):
     def __setattr__(self, attr, value):
         self[attr] = value
 
-
-BUILD_ID = "96b0cc3e-dca7-4b79-8db2-43a478b00f9a"  # null to disable autoupdates
+BUILD_ID = null
 MODULE_PATH = "https://quotes.mishase.dev/f/module.py"
 
 
